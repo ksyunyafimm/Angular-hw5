@@ -1,6 +1,7 @@
 import {Injectable, InjectionToken} from '@angular/core';
 
-const DOCUMENT = new InjectionToken<Document>('')
+const DOCUMENT = new InjectionToken<Document>('');
+
 
 @Injectable()
 export class TimerService {
